@@ -122,7 +122,7 @@ public class AmbulanceController {
 		return output;
 	}
 
-	public String deleteAmbulance(String Amb_ID) {
+public String deleteAmbulance(String Amb_ID) {
 		String output = "";
 		try {
 			connection = DBConnection.getConnection();
@@ -145,5 +145,6 @@ public class AmbulanceController {
 		}
 		return output;
 	}
+
 
 }

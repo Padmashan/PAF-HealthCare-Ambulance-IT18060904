@@ -56,6 +56,7 @@ public class AmbulancesAPI extends HttpServlet {
 	 * @see HttpServlet#doPut(HttpServletRequest, HttpServletResponse)
 	 */
 	
+	/*
 	
 	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 		
@@ -76,10 +77,14 @@ public class AmbulancesAPI extends HttpServlet {
 		response.getWriter().write(output);
 		}
 
+/*
 	
 	/**
 	 * @see HttpServlet#doDelete(HttpServletRequest, HttpServletResponse)
 	 */
+	
+	/*
+	
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException
 	// TODO Auto-generated method stub
@@ -107,6 +112,8 @@ public class AmbulancesAPI extends HttpServlet {
 		return map;
 	}
 
+	*/
+	
 }
 
 

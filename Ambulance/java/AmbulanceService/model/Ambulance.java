@@ -2,9 +2,6 @@ package AmbulanceService.model;
 
 import java.sql.Date;
 
-//import javax.xml.bind.annotation.XmlRootElement;
-//@XmlRootElement
-
 public class Ambulance {
 	private int Amb_ID;
 	private int H_ID;

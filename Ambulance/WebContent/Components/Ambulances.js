@@ -105,6 +105,8 @@ function validateAmbulancesForm()
 	return true;
 }
 
+/*
+
 //update button
 $(document).on("click", ".btnUpdate", function(event)
 {
@@ -167,3 +169,5 @@ function onAmbulancesDeleteComplete(response, status) {
 	} 
 	
 }
+
+*/
