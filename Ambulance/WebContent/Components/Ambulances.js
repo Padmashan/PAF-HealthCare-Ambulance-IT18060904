@@ -93,6 +93,14 @@ function validateAmbulancesForm()
 	{
 		return "Insert Ambulance Contact";
 	}
+	
+	/*
+	var tmpAmb_Cont = $("#Amb_Cont").val().trim();
+	if(!$.isNumeric(tmpAmb_Cont)){
+		return "Insert a numerical value for Ambulance Number ."
+	}
+	*/
+	
 	if ($("#Driver_Name").val().trim() == "")
 	{
 		return "Insert Driver name";
@@ -102,6 +110,8 @@ function validateAmbulancesForm()
 		return "Insert ride date";
 	}
 
+	
+	
 	return true;
 }
 
