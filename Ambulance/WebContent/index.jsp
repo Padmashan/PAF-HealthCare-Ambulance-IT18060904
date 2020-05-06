@@ -19,14 +19,14 @@
 				<h1>Ambulance Details</h1>
 				<form id="formAmbulances" name="formAmbulances">
 				
-					Hospital ID: <input id="H_ID" name="H_ID" type="number"
+					Hospital ID: <input id="H_ID" name="H_ID" type="text"
 						class="form-control form-control-sm"> <br>
-					Admin Id: <input id="Admin_Id" name="Admin_Id" type="number"
+					Admin ID: <input id="Admin_Id" name="Admin_Id" type="text"
 						class="form-control form-control-sm"> <br>
 					Ambulance No : <input id="Amb_No" name="Amb_No"
 						type="text" class="form-control form-control-sm"> <br>
 					Ambulance Contact : <input id="Amb_Cont" name="Amb_Cont"
-						type="number" class="form-control form-control-sm"> <br>
+						type="text" class="form-control form-control-sm"> <br>
 					Driver Name: <input id="Driver_Name"
 						name="Driver_Name" type="text"
 						class="form-control form-control-sm"> <br> 

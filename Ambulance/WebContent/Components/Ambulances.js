@@ -78,28 +78,52 @@ function validateAmbulancesForm()
 
 	if ($("#H_ID").val().trim() == "")
 	{
-		return "Hospital ID";
+		return "Insert Hospital ID";
 	} 
+	
+	// is numerical value
+	var tmpH_ID = $("#H_ID").val().trim();
+	if (!$.isNumeric(tmpH_ID))
+	{
+	return "Insert a numerical value for Hospital ID.";
+	}
+	
+	
+	
 	if ($("#Admin_Id").val().trim() == "")
 	{
 		return "Insert Admin ID";
 	}
+	
+	// is numerical value
+	var tmpAdmin_Id = $("#Admin_Id").val().trim();
+	if (!$.isNumeric(tmpAdmin_Id))
+	{
+	return "Insert a numerical value for Admin ID.";
+	}
+	
+	
+	
 	if ($("#Amb_No").val().trim() == "")
 	{
 		return "Insert Ambulance No";
 	}
+	
+	
 	
 	if ($("#Amb_Cont").val().trim() == "")
 	{
 		return "Insert Ambulance Contact";
 	}
 	
-	/*
+	// is numerical value
 	var tmpAmb_Cont = $("#Amb_Cont").val().trim();
-	if(!$.isNumeric(tmpAmb_Cont)){
-		return "Insert a numerical value for Ambulance Number ."
+	if (!$.isNumeric(tmpAmb_Cont))
+	{
+	return "Insert a numerical value for Ambulance Phone Number.";
 	}
-	*/
+	
+	
 	
 	if ($("#Driver_Name").val().trim() == "")
 	{
