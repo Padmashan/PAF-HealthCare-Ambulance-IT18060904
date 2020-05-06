@@ -105,7 +105,7 @@ function validateAmbulancesForm()
 	return true;
 }
 
-/*
+
 
 //update button
 $(document).on("click", ".btnUpdate", function(event)
@@ -119,6 +119,8 @@ $(document).on("click", ".btnUpdate", function(event)
 	$("#Driver_Name").val($(this).closest("tr").find('td:eq(4)').text());
 	$("#Ride_Date").val($(this).closest("tr").find('td:eq(5)').text());
 });
+
+/*
 
 //DELETE
 $(document).on("click", ".btnRemove", function(event) {  

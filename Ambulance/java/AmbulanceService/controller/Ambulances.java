@@ -116,7 +116,7 @@ public class Ambulances {
 		return output;
 	}
 
-/**	public String updateAmbulances(String Amb_ID, String H_ID, String Admin_Id, String Amb_No,
+	public String updateAmbulances(String Amb_ID, String H_ID, String Admin_Id, String Amb_No,
 			String Amb_Cont, String Driver_Name , String Ride_Date) {
 		String output = "";
 		try {
@@ -148,6 +148,7 @@ public class Ambulances {
 		return output;
 	}
 
+	/*
 	public String deleteAmbulances(String Amb_ID) {
 		String output = "";
 		try {
@@ -172,6 +173,6 @@ public class Ambulances {
 		}
 		return output;
 	}
+	*/
 	
-	**/
 }

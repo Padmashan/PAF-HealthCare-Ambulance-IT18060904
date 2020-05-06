@@ -56,7 +56,7 @@ public class AmbulancesAPI extends HttpServlet {
 	 * @see HttpServlet#doPut(HttpServletRequest, HttpServletResponse)
 	 */
 	
-	/*
+	
 	
 	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 		
@@ -77,7 +77,7 @@ public class AmbulancesAPI extends HttpServlet {
 		response.getWriter().write(output);
 		}
 
-/*
+
 	
 	/**
 	 * @see HttpServlet#doDelete(HttpServletRequest, HttpServletResponse)
@@ -93,6 +93,7 @@ public class AmbulancesAPI extends HttpServlet {
 		String output = AmbulancesObj.deleteAmbulances(paras.get("Amb_ID").toString());
 		response.getWriter().write(output);
 	}
+	*/
 
 	// Convert request parameters to a Map
 	private static Map getParasMap(HttpServletRequest request) {
@@ -112,7 +113,7 @@ public class AmbulancesAPI extends HttpServlet {
 		return map;
 	}
 
-	*/
+	
 	
 }
 
