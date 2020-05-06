@@ -148,7 +148,7 @@ public class Ambulances {
 		return output;
 	}
 
-	/*
+	
 	public String deleteAmbulances(String Amb_ID) {
 		String output = "";
 		try {
@@ -173,6 +173,6 @@ public class Ambulances {
 		}
 		return output;
 	}
-	*/
+	
 	
 }

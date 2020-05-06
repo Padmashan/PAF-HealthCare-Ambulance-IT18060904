@@ -120,7 +120,7 @@ $(document).on("click", ".btnUpdate", function(event)
 	$("#Ride_Date").val($(this).closest("tr").find('td:eq(5)').text());
 });
 
-/*
+
 
 //DELETE
 $(document).on("click", ".btnRemove", function(event) {  
@@ -172,4 +172,3 @@ function onAmbulancesDeleteComplete(response, status) {
 	
 }
 
-*/
